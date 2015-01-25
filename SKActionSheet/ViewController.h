@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "SKActionsheet.h"
 @interface ViewController : UIViewController
 
 

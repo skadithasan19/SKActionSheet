@@ -14,6 +14,7 @@
 		C98C15771A745C1900B53D6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98C15761A745C1900B53D6B /* Images.xcassets */; };
 		C98C157A1A745C1900B53D6B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C98C15781A745C1900B53D6B /* LaunchScreen.xib */; };
 		C98C15861A745C1900B53D6B /* SKActionSheetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C98C15851A745C1900B53D6B /* SKActionSheetTests.m */; };
+		C98C15921A745C5B00B53D6B /* SKActionsheet.m in Sources */ = {isa = PBXBuildFile; fileRef = C98C15911A745C5B00B53D6B /* SKActionsheet.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		C98C157F1A745C1900B53D6B /* SKActionSheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKActionSheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98C15841A745C1900B53D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C98C15851A745C1900B53D6B /* SKActionSheetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKActionSheetTests.m; sourceTree = "<group>"; };
+		C98C15901A745C5B00B53D6B /* SKActionsheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKActionsheet.h; sourceTree = "<group>"; };
+		C98C15911A745C5B00B53D6B /* SKActionsheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKActionsheet.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		C98C15681A745C1900B53D6B /* SKActionSheet */ = {
 			isa = PBXGroup;
 			children = (
+				C98C158F1A745C4000B53D6B /* SKSheetClass */,
 				C98C156D1A745C1900B53D6B /* AppDelegate.h */,
 				C98C156E1A745C1900B53D6B /* AppDelegate.m */,
 				C98C15701A745C1900B53D6B /* ViewController.h */,
@@ -117,6 +121,15 @@
 				C98C15841A745C1900B53D6B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C98C158F1A745C4000B53D6B /* SKSheetClass */ = {
+			isa = PBXGroup;
+			children = (
+				C98C15901A745C5B00B53D6B /* SKActionsheet.h */,
+				C98C15911A745C5B00B53D6B /* SKActionsheet.m */,
+			);
+			path = SKSheetClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				C98C15721A745C1900B53D6B /* ViewController.m in Sources */,
 				C98C156F1A745C1900B53D6B /* AppDelegate.m in Sources */,
 				C98C156C1A745C1900B53D6B /* main.m in Sources */,
+				C98C15921A745C5B00B53D6B /* SKActionsheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
